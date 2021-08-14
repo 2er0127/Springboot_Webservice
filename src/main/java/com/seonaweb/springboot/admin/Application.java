@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application { // 메인 클래스
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args); // 내장 web application server(WAS)
+        // 내장 WAS: [언제어디서나 같은 환경에서 스프링부트 배포 가능]
+        SpringApplication.run(Application.class, args);
     }
 }
